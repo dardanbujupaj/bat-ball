@@ -1,0 +1,18 @@
+# Godot-specific ignores
+.import/
+export.cfg
+
+# Imported translations (automatically generated from CSV files)
+*.translation
+
+# Mono-specific ignores
+.mono/
+data_*/ﬁ
+
+# custom
+build/*
+build/!.gdignore
+bin/
+release/
+.DS_Store
+game/disco/disco_light_minigame/source/Actors/LaserBeam.gd
